@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/projectVars.scss"
+    ],
+    "names": [],
+    "file": "projectVars.css"
+}

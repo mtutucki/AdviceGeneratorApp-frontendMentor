@@ -1,9 +1,7 @@
 @import 'projectVars.scss';
 
 .advice{
-    width: 900px;
-    background-color: $dark-grayish-blue;
-    border-radius: 16px;
+    width: 740px;
 
     &__number{
         padding-top: 3rem;
@@ -19,7 +17,9 @@
     }
 
     &__divider{
-        padding: 1rem;
+        background-image: url('../img/pattern-divider-desktop.svg');
+        width: 444px;
+        transform: scaleX(1.4);
     }
 
     &__button{

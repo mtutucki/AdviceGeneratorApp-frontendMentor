@@ -1,0 +1,52 @@
+.advice {
+  width: 740px;
+}
+
+.advice__number {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  color: #52ffa8;
+  letter-spacing: 4px;
+}
+
+.advice__text {
+  padding: 2rem 2rem;
+  color: #cee3e9;
+  text-align: center;
+}
+
+.advice__divider {
+  padding: 1rem;
+}
+
+.advice__button {
+  padding: 2rem;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+.advice__button:hover {
+  -webkit-box-shadow: 0px 0px 22px 2px #52ffa8;
+          box-shadow: 0px 0px 22px 2px #52ffa8;
+}
+
+@media screen and (max-width: 360px) {
+  .advice {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .advice {
+    width: 280px;
+  }
+}
+/*# sourceMappingURL=medium.css.map */

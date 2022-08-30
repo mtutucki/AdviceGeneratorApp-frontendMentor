@@ -44,7 +44,9 @@ body{
     }
 
     &__divider{
-        padding: 1rem;
+        background-image: url('../img/pattern-divider-mobile.svg');
+        width: 295px;
+        height: 16px;
     }
 
     &__button{
