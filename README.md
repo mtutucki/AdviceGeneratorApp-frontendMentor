@@ -9,7 +9,7 @@ https://mtutucki.github.io/AdviceGeneratorApp-frontendMentor/
 
 ## About the project
 Advice generator app is challenge from frronted mentror site.
-It's inspired me to do project uses API.
+It's inspired me to do a project uses API.
 
 
 ## Technologies
