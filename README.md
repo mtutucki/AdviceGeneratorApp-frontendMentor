@@ -13,6 +13,6 @@ It's inspired me to do a project uses API.
 
 
 ## Technologies
-HTML
-CSS
-JavaScript
+HTML <br>
+CSS <br>
+JavaScript <br>
