@@ -50,6 +50,7 @@ body{
     }
 
     &__button{
+        position: relative;
         padding: 2rem;
         background-color: $neon-green;
         border: none;
@@ -61,6 +62,23 @@ body{
 
     &__button:hover{
         box-shadow: 0px 0px 22px 2px $neon-green;
+    }
+
+    &__button::after{
+        content: 'Next advice every 2 seconds';
+        position: absolute;
+        left: -150px;
+        top: -40%;
+        padding: .5rem 2rem;
+        font-size: 1.1rem;
+        background-color: $light-cyan;
+        border-radius: 16px;
+        opacity: 0;
+        transition: opacity .6s;
+    }
+
+    &__button:hover::after{
+        opacity: 1;
     }
 }
 
