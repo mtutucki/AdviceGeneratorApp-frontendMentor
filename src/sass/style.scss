@@ -12,6 +12,9 @@ html {
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.8rem;
     font-family: 'Manrope', sans-serif;
     background-color: $dark-blue;
@@ -19,10 +22,6 @@ body{
 }
 
 .advice{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,23 +61,6 @@ body{
 
     &__button:hover{
         box-shadow: 0px 0px 22px 2px $neon-green;
-    }
-
-    &__button::after{
-        content: 'Next advice every 2 seconds';
-        position: absolute;
-        left: -150px;
-        top: -40%;
-        padding: .5rem 2rem;
-        font-size: 1.1rem;
-        background-color: $light-cyan;
-        border-radius: 16px;
-        opacity: 0;
-        transition: opacity .6s;
-    }
-
-    &__button:hover::after{
-        opacity: 1;
     }
 }
 

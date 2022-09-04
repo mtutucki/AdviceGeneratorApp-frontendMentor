@@ -15,11 +15,11 @@ const prepareDOMEvents = () => {
 }
 
 const fillAdvice = () => {
-    fetch(URL)
+    fetch(URL, {cache: 'no-cache'})
         .then(res => res.json())
         .then(data => adviceText.innerHTML = data.slip.advice);
 
-    fetch(URL)
+        fetch(URL, {cache: 'no-cache'})
         .then(res => res.json())
         .then(data => adviceNumber.innerHTML = "ADVICE# " + data.slip.id);
 
